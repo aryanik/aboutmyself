@@ -1,0 +1,41 @@
+
+  body {
+    background-color: #a7d7c5;
+
+  }
+
+  hr {
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 10px;
+    width: 10%;
+  }
+  
+h1 {
+  color: #d84c73;
+}
+h3 {
+  color: #1E757B;
+}
+h2 {
+  color: #1f4287;
+}
+a {
+  text-decoration: none;
+}
+img:hover {
+  background-color: gold;
+}
+a:link { color: blue; }          /* Unvisited links */
+a:visited { color: purple; }     /* Visited links */
+a:hover { background: yellow; }  /* Hovered links */
+a:active { color: red; }         /* Active links */
+
+p:active { background: #eee; }   /* Active paragraphs */
+form :active {
+  color: red;
+}
+.button {
+  background: white;
+}
